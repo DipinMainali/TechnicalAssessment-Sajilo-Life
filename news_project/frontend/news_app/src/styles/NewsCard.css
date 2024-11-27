@@ -1,0 +1,40 @@
+/* styles/NewsCard.css */
+.news-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.news-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.news-card-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.news-card-footer {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.news-card-readmore {
+  color: #0a75ba;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-card-readmore:hover {
+  text-decoration: underline;
+}

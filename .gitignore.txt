@@ -1,0 +1,32 @@
+# Ignore node_modules directories in each sub-project
+/backend/node_modules/
+news_project/frontend/node_modules/
+news_project/mobile/node_modules/
+
+weather_project/frontend/node_modules/
+weather_project/mobile/node_modules/
+
+# Ignore virtual environment folder
+weather_project/venv/
+news_project/newsvenv/
+
+# Ignore build output directories
+/build
+/dist
+
+# Ignore IDE and OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables and config files
+*.env
+*.env.local
+*.env.*.local
+
+# Other common exclusions
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude any other common files/folders
+*.log

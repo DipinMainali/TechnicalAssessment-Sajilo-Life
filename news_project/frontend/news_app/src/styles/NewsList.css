@@ -1,0 +1,12 @@
+/* styles/NewsList.css */
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news-item {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
